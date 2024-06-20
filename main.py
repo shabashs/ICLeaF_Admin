@@ -48,7 +48,7 @@ def main():
         # manage_corporate.create_New_pack()
         # manage_corporate.edit_Corporate()
         manage_corporate_course=Manage_Corporate_Course.Manage_Corporate_Course(driver)
-        manage_corporate_course.Edit_Course()
+        manage_corporate_course.Config_Course()
 #new command
 
     driver.quit()
